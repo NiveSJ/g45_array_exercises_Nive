@@ -23,10 +23,10 @@ public class Exercise11 {
     int more = scan.nextInt();
     int temp1 = more - array.length;
     int temp2 = array.length + temp1;
-    ;
+
 
     array = Arrays.copyOf(array, temp2);
-    int[] revArray = Arrays.copyOf(array, array.length);
+    int[] revArray = new int[array.length];
     System.out.println("Enter Array Elements");
     for (int i = 0; i < array.length; i++) {
       array[i] = scan.nextInt();

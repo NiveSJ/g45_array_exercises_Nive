@@ -19,11 +19,11 @@ public class Exercise13 {
     int back = array1.length - 1;
     for (int j : array1) {
       if (j % 2 == 0) {
-        array2[front] = j;
-        front++;
-      } else {
         array2[back] = j;
         back--;
+      } else {
+        array2[front] = j;
+        front++;
       }
 
     }
