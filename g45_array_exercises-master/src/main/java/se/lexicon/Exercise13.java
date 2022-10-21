@@ -29,7 +29,7 @@ public class Exercise13 {
     }
 
     System.out.println("Original Array:"+ Arrays.toString(array1));
-    System.out.println("Array with even at rear and odd at back:"+ Arrays.toString(array2));
+    System.out.println("Array with even at front and odd at back:"+ Arrays.toString(array2));
 
 
   }
